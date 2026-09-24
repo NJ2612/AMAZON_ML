@@ -1,0 +1,21 @@
+# Business Entity Resolution — pinned dependencies
+# Starting point; add/remove as the pipeline takes shape.
+
+# Core data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# String / fuzzy similarity for name & address matching
+rapidfuzz==3.9.6
+scikit-learn==1.5.1        # TF-IDF, classifiers, metrics
+scipy==1.13.1
+
+# Phonetic / text normalization (blocking keys)
+jellyfish==1.0.4
+unidecode==1.3.8
+
+# Gradient-boosted matcher (optional but common for ER)
+xgboost==2.1.1
+
+# Progress bars
+tqdm==4.66.5
