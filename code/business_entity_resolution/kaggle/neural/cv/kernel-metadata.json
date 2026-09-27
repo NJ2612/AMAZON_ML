@@ -1,0 +1,13 @@
+{
+  "id": "parasrawal117/ber-neural-cv",
+  "title": "BER Neural CV",
+  "code_file": "run_cv.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["parasrawal117/ber-neural-assets", "parasrawal117/ber-neural-srcpatch"],
+  "competition_sources": [],
+  "kernel_sources": ["parasrawal117/ber-neural-cv"]
+}

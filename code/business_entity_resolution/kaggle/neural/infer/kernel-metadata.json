@@ -1,0 +1,13 @@
+{
+  "id": "parasrawal117/ber-neural-infer",
+  "title": "BER Neural Infer",
+  "code_file": "run_infer.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["parasrawal117/ber-neural-assets"],
+  "competition_sources": [],
+  "kernel_sources": ["parasrawal117/ber-neural-cv"]
+}

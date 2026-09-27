@@ -14,8 +14,17 @@ scipy==1.13.1
 jellyfish==1.0.4
 unidecode==1.3.8
 
-# Gradient-boosted matcher (optional but common for ER)
+# EDA plots
+matplotlib==3.10.8
+
+# Gradient-boosted base matchers (run in parallel in the hybrid)
 xgboost==2.1.1
+lightgbm==4.7.0            # MIT-licensed GBDT
+
+# Cross-attention fusion network + blocking / caching
+torch                     # CPU build; tiny cross-attention fusion module
+faiss-cpu                 # ANN blocking (char-ngram nearest neighbors)
+pyarrow                   # parquet feature cache
 
 # Progress bars
 tqdm==4.66.5

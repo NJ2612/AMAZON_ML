@@ -1,0 +1,13 @@
+{
+  "id": "happyparsi/ber-ltr-run",
+  "title": "BER LTR Run",
+  "code_file": "run_ltr_infer.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["happyparsi/ber-matching-inputs", "happyparsi/ber-ltr-artifacts"],
+  "competition_sources": [],
+  "kernel_sources": []
+}
